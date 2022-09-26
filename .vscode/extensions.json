@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "2gua.rainbow-brackets",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "dotiful.dotfiles-syntax-highlighting",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "mikestead.dotenv",
+    "stylelint.vscode-stylelint",
+    "xabikos.javascriptsnippets"
+  ]
+}
