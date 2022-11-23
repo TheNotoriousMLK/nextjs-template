@@ -1,9 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+  experimental: {
+    appDir: true,
+    fontLoaders: [
+      {
+        loader: '@next/font/google',
+        options: {
+          subsets: ['latin'],
+        },
+      },
+    ],
+  },
   eslint: {
-    dirs: ['cypress', 'pages', 'src'],
+    dirs: ['app', 'cypress', 'pages', 'src'],
   },
 }
 
